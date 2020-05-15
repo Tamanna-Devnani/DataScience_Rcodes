@@ -1,0 +1,5 @@
+BuyerRatio <- read.csv("C:/Users/HP/Desktop/RCodes/Assignments/Hypothesis/BuyerRatio.csv")
+View(BuyerRatio)
+Male <- c(50,142,131,70)
+Females <- c(435,1523,1356,750)
+t.test(Male,Females,alternative = "two.sided")
